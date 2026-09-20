@@ -11,12 +11,21 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
     font-size: 1.75rem;
     margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+hr {
+    border-color: #ffd970;
+    border-style: solid;
 }
 
 /* Card styling */
