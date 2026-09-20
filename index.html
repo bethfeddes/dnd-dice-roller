@@ -21,8 +21,9 @@
         </div>
 
         <section class='controls'>
+            <h2>Choose Your Die</h2>
             <div class='dropdown'>
-                <label for='dieType'>Choose die type</label>
+                <label for='dieType'>Die type:</label>
                 <select name='dice' id='dieType'>
                     <option value='4'>d4</option>
                     <option value='6'>d6</option>
@@ -36,8 +37,9 @@
         </section>
 
         <section class='dice-result'>
-            <label for='diceResult'>Roll Result:</label>
-            <input type='text' id='diceResult' class='die-value' readonly />
+            <h2>Result</h2>
+            <label for='diceResult'>Roll:</label>
+            <input type='text' id='diceResult' class='die-value' readonly>
         </section>
 
         <button id='rollButton' type='button' autofocus onclick='rollDice()'>
